@@ -1,0 +1,40 @@
+/*
+ * Import Fonts
+ */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+/*
+ * Color Scheme
+ * rgb(63,  21, 64) : #3F1540 : Dark Header Background
+ * rgb(107, 37,109) : #6B256D : Logo Dark
+ */
+
+#clockdiv{
+    font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: rgb(162, 109, 171);
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #3F1540;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
