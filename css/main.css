@@ -120,7 +120,7 @@ body {
     top: 440px; /* header + banner + tagline height */
     /* padding-top: 460px; */
     padding-top: 470px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
     /*color: rgb(63,21,64); */
     color: rgb(107,37,109);
     text-align: center;
