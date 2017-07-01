@@ -199,6 +199,9 @@ header .highlight, header .current a {
     width: 90px;
 }
 
+#boxes p {
+    text-align: left;
+}
 
 /*
  * Side Bar
