@@ -43,7 +43,7 @@ body {
 
 .logo a {
     text-decoration: none;
-    color: azure
+    color: azure;
 }
 
 .nav {
@@ -100,7 +100,6 @@ body {
     padding-bottom: 10px;
     background-color: #FFFFFF;
     vertical-align: middle;
-    border-bottom: solid;
     border-color: rgb(63,21,64);
 }
 
@@ -116,21 +115,50 @@ body {
 }
 
 .content {
-    width: 960px;
     top: 440px; /* header + banner + tagline height */
-    /* padding-top: 460px; */
-    padding-top: 470px;
+    width: 960px;
+    height: 100px;
+    padding-top: 440px;
     font-family: 'Ubuntu', sans-serif;
     /*color: rgb(63,21,64); */
     color: rgb(107,37,109);
     text-align: center;
-    height: 300px;
 }
+
+ /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+} 
+
+
 
 .footer {
     background: rgb(63,21,64);
     height: 25px;
-    top: 740px;
+    top: 900px;
     /*
     width: 100%;
     height: 80px;
