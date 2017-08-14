@@ -218,7 +218,7 @@ aside#sidebar .quote textarea {
 }
 
 /*
- * Main-Col
+ * Main-Col: Works With Side Bar
  */
 article#main-col {
     float: left;
@@ -232,9 +232,14 @@ article#main-col {
 ul#services li {
     list-style: none;
     padding: 0px 10px 0px 20px;
-    border: #CCCCCC solid 1px;
     margin-bottom: 5px;
+    
+    border: #CCCCCC solid 1px;
     background-color: #E6E6E6;
+    
+    border: #FBF2FB solid 1px;
+    background-color: #FBF2FB;
+    background-color: #FDFBFD;
 }
 
 
